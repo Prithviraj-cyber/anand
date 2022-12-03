@@ -1284,6 +1284,7 @@ select
 .contact .contact-form .form-item textarea.form-control
 {
 	height: 140px;
+	 resize: none;
 }
 
 .contact .contact-form .form-item .form-control:focus
