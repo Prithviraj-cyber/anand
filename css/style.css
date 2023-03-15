@@ -577,7 +577,7 @@ body
 	-ms-flex: 0 0 100%;
 	flex: 0 0 100%;
 	max-width: 100%;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 }
 
 .about .about-content .skills .skill-item h5
