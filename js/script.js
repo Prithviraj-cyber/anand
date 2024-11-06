@@ -165,39 +165,21 @@ window.addEventListener("load", function(){
 
 
         //------toggler----------//
-  // const navTogglerBtn = document.querySelector(".nav-toggler"),
-  //       aside = document.querySelector(".aside");
+  const navTogglerBtn = document.querySelector(".nav-toggler"),
+        aside = document.querySelector(".aside");
 
-  //   navTogglerBtn.addEventListener("click",() =>{
-  //       asideSectionTogglerBtn();
-  //   })
-
-  //   function asideSectionTogglerBtn(){
-  //       aside.classList.toggle("open");
-  //       navTogglerBtn.classList.toggle("open");
-
-  //       for(let i=0; i<totalSection; i++){
-  //           allSection[i].classList.toggle("open");
-  //       }
-  //   }
-
-document.addEventListener("DOMContentLoaded", () => {
-    const navTogglerBtn = document.querySelector(".nav-toggler");
-    const aside = document.querySelector(".aside");
-    const allSection = document.querySelectorAll(".section");
-    const totalSection = allSection.length;
-
-    navTogglerBtn.addEventListener("click", () => {
+    navTogglerBtn.addEventListener("click",() =>{
         asideSectionTogglerBtn();
-    });
+    })
 
-    function asideSectionTogglerBtn() {
+    function asideSectionTogglerBtn(){
         aside.classList.toggle("open");
         navTogglerBtn.classList.toggle("open");
 
-        for (let i = 0; i < totalSection; i++) {
+        for(let i=0; i<totalSection; i++){
             allSection[i].classList.toggle("open");
         }
     }
-});
+
+
 
