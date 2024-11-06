@@ -187,6 +187,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const allSection = document.querySelectorAll(".section");
     const totalSection = allSection.length;
 
+    // Check if elements are found
+    console.log("navTogglerBtn:", navTogglerBtn);
+    console.log("aside:", aside);
+    console.log("allSection:", allSection);
+
     if (navTogglerBtn && aside) {
         navTogglerBtn.addEventListener("click", () => {
             asideSectionTogglerBtn();
@@ -194,6 +199,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function asideSectionTogglerBtn() {
+        console.log("Toggle function triggered");
         aside.classList.toggle("open");
         navTogglerBtn.classList.toggle("open");
 
