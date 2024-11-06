@@ -10,6 +10,18 @@
 		left: -270px;
 	}
 
+	.aside .nav-toggler
+	{
+		display: -ms-flexbox;
+		display: flex;
+		left: 30px;
+	}
+
+	.aside .nav-toggler.open
+	{
+		left: 300px;
+	}
+
 	.aside.open
 	{
 		left: 0px;
@@ -24,18 +36,6 @@
 	.section.open
 	{
 		left: 270px;
-	}
-
-	.aside .nav-toggler
-	{
-		display: -ms-flexbox;
-		display: flex;
-		left: 30px;
-	}
-
-	.aside .nav-toggler.open
-	{
-		left: 300px;
 	}
 
 	.about .about-content .personal-info .info-item p span
