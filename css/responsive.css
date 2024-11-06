@@ -8,13 +8,7 @@
 	.aside
 	{
 		left: -270px;
-	}
-
-	.aside .nav-toggler
-	{
-		display: -ms-flexbox;
-		display: flex;
-		left: 30px;
+		transition: left 0.3s ease;
 	}
 
 	.aside .nav-toggler.open
@@ -31,11 +25,19 @@
 	.section
 	{
 		left: 0px;
+		transition: left 0.3s ease;
 	}
 
 	.section.open
 	{
 		left: 270px;
+	}
+
+	.aside .nav-toggler
+	{
+		display: -ms-flexbox;
+		display: flex;
+		left: 30px;
 	}
 
 	.about .about-content .personal-info .info-item p span
